@@ -9,14 +9,14 @@ Thank you for supporting!
 # If you use the version like python2.7, please modify the code accordingly
 
 # 5 - Classifier example
-
-import numpy as np
-np.random.seed(1337)  # for reproducibility
 from keras.datasets import mnist
 from keras.utils import np_utils
 from keras.models import Sequential
 from keras.layers import Dense, Activation
 from keras.optimizers import RMSprop
+import numpy as np
+np.random.seed(1337)  # for reproducibility
+
 
 # download the mnist to the path '~/.keras/datasets/' if it is the first time to be called
 # X shape (60,000 28x28), y shape (10,000, )
