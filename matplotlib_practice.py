@@ -1,5 +1,7 @@
 # Matplotlib is a plotting library. In this section give a brief introduction to the matplotlib.pyplot
 # module, which provides a plotting system similar to that of MATLAB.
+#
+
 # Author: Shawn Jin
 
 import numpy as np
