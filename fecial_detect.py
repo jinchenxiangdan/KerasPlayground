@@ -1,3 +1,4 @@
+# detect all faces that in a picture 
 
 import dlib
 from skimage import io
